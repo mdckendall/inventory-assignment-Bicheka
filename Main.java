@@ -55,10 +55,9 @@ public class Main {
 
             else if(option == 5){
                 
-                inventory.showAllItems();
-                scanner.nextLine();
+                break;
             }
         }
-        //scanner.close();
+        scanner.close();
     }
 }
